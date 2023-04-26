@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8" />
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" type="text/css" href="calc.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body id="myDiv">
+
+</body>
+
+<script>
+    document.getElementById("myDiv").innerHTML = `
+      <main>
+        <div class="calculadoraCientifica">
+          <h1>CALCULADORA</h1>
+          <div class="screen">
+            <label type="text" id="resultSave" readonly>0</label>
+            <label type="text" id="result" readonly>0</label>
+          </div>
+          <div class="button">
+            <div id="hidde">
+              <ul id="listaOperacionesMath"></ul>
+            </div>
+            <div class="inferior">
+              <ul id="listaNumeros"></ul>
+              <ul id="listaOperacionesBasicas"></ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    `;
+</script>
+<script src="calc.js"></script>
+</html>
