@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "titulo";
+  src: url(fonts/LEDCalculator.ttf);
+}
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.calculadoraCientifica {
+  border: 2px solid #ccc;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 27rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #008000;
+  margin-bottom: 1rem;
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+
+.screen label {
+  width: 100%;
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.screen #result {
+  font-size: 2.5rem;
+  color: #008000;
+  max-width: 100%;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  color: aquamarine;
+}
+
+.button #listaNumeros {
+  padding: 0.5em;
+}
+
+.button li {
+  list-style: none;
+}
+
+.inferior {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -0.1rem;
+}
+
+.button button {
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  margin: 0.3rem;
+  width: 3.4rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-size: medium;
+  
+  
+}
+
+.button button:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0px 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+
+.button button:active {
+  transform: translateY(0.25rem);
+  box-shadow: none;
+}
+
+#listaOperacionesMath {
+  padding-inline-start: 3px;
+}
+
+#listaOperacionesMath .group .boton {
+  text-align: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding-inline-start: 3px;
+  color: #482060;
+  background-color: #1da41d94;
+}
+h1 {
+  font-family: "titulo";
+  font-size: 60px;
+}
+
