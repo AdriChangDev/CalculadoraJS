@@ -21,5 +21,4 @@ La calculadora científica tiene las siguientes funciones:
 # Uso
 Para utilizar la calculadora, simplemente haga clic en los botones numéricos y de operación para ingresar números y realizar operaciones. La pantalla mostrará el número actual y las operaciones ingresadas. También puede usar la memoria para guardar resultados y realizar operaciones con ellos.
 
-# Contribuyendo
-Si desea contribuir a este proyecto, puede crear una bifurcación (fork) y enviar solicitudes de extracción (pull requests) con sus cambios. Asegúrese de seguir las pautas de estilo y las prácticas recomendadas de programación.
+
